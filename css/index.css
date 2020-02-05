@@ -18,6 +18,11 @@
 .navigation-section .nav-left-div a {
   margin: 0 20px;
   color: #DAAD86;
+  text-decoration: none;
+}
+.navigation-section .nav-left-div a:hover {
+  text-decoration: underline;
+  text-decoration-color: #659DBD;
 }
 .navigation-section .nav-right-div {
   display: flex;
@@ -29,6 +34,11 @@
 .navigation-section .nav-right-div a {
   margin: 0 20px;
   color: #DAAD86;
+  text-decoration: none;
+}
+.navigation-section .nav-right-div a:hover {
+  text-decoration: underline;
+  text-decoration-color: #659DBD;
 }
 .header-section {
   display: flex;
@@ -260,7 +270,7 @@ html {
   font-size: 62.5%;
 }
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
@@ -292,7 +302,7 @@ h2 {
 }
 h3 {
   font-size: 2rem;
-  color: #FBEEC1;
+  color: #f7df87;
 }
 p {
   font-size: 1.5rem;
