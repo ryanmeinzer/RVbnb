@@ -25,6 +25,11 @@
   text-decoration: underline;
   text-decoration-color: #659DBD;
 }
+@media (max-width: 500px) {
+  .navigation-section .nav-left-div {
+    text-align: center;
+  }
+}
 .navigation-section .nav-right-div {
   display: flex;
   width: 40%;
@@ -40,6 +45,19 @@
 .navigation-section .nav-right-div a:hover {
   text-decoration: underline;
   text-decoration-color: #659DBD;
+}
+@media (max-width: 500px) {
+  .navigation-section .nav-right-div {
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .navigation-section {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .header-section {
   display: flex;
