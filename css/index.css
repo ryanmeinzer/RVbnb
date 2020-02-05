@@ -2,49 +2,51 @@
   display: flex;
   flex-direction: center;
 }
-.nav-logo {
+.navigation-section .nav-logo {
   display: flex;
   width: 20%;
   justify-content: center;
   font-family: 'Courgette', cursive;
 }
-.nav-left-div {
+.navigation-section .nav-left-div {
   display: flex;
   width: 40%;
   justify-content: flex-start;
   align-items: center;
   font-size: 2.5rem;
 }
-.nav-left-div nav-left a {
+.navigation-section .nav-left-div a {
   margin: 0 20px;
+  color: #DAAD86;
 }
-.nav-right-div {
+.navigation-section .nav-right-div {
   display: flex;
   width: 40%;
   justify-content: flex-end;
   align-items: center;
   font-size: 2.5rem;
 }
-.nav-right-div nav-right a {
+.navigation-section .nav-right-div a {
   margin: 0 20px;
+  color: #DAAD86;
 }
 .header-section {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.header-left-div {
+.header-section .header-left-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.header-right-div {
+.header-section .header-right-div {
   justify-content: center;
   align-items: center;
   width: 60%;
 }
-.header-right-div img {
+.header-section .header-right-div img {
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -96,8 +98,32 @@
 footer {
   text-align: center;
 }
-.top-section {
-  text-align: right;
+.top-section h2,
+.middle-section h2,
+.bottom-section h2 {
+  text-align: center;
+}
+.middle-section-graphics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.middle-section-graphics img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+.middle-section-headers {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.middle-section-headers div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -258,13 +284,17 @@ body {
 }
 h1 {
   font-size: 5rem;
+  color: #659DBD;
 }
 h2 {
   font-size: 4rem;
+  color: #BC986A;
 }
 h3 {
   font-size: 2rem;
+  color: #FBEEC1;
 }
 p {
   font-size: 1.5rem;
+  color: #8D8741;
 }
