@@ -22,10 +22,13 @@
 			text-decoration: underline;
 			text-decoration-color: @h1-color;
 			}
-			}
-			@media @mobile {
-				text-align: center;
-			}  				
+		}
+		@media @mobile {
+			text-align: center;
+			margin: 1rem 0 0 0;
+			line-height: 4rem;
+			border-top: 1px solid #DAAD86; 
+		}  				
 	}
   .nav-right-div {
 	display: flex;
@@ -34,7 +37,7 @@
 	align-items: center;
 	font-size: 2.5rem;
 		a {
-			margin: 0 20px;
+			margin: 0 2rem;
 			color: @nav-color;
 			text-decoration: none;
 			&:hover {
@@ -44,6 +47,8 @@
 		}
 		@media @mobile {
 			text-align: center;
+			line-height: 4rem;
+			border-bottom: 1px solid #DAAD86;
 		} 
 	}
 @media @mobile {
@@ -63,6 +68,14 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		@media @mobile {
+			margin: 0 0 10px 0;
+		}
+		h2 {
+			@media @mobile {
+				margin: 0 0 10px 0;
+			}
+		}
 	}
 	.header-right-div {
 		justify-content: center;
@@ -74,6 +87,10 @@
 			width: 100%;
   		}
 	}
+	@media @mobile {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 .RV-carousel {
@@ -82,6 +99,14 @@
 	img {
 		.flex-center-center();
 		width: 20%;
+		@media @mobile {
+			width: 80%;
+			.mobile-default-margin();
+		}
+	}
+	@media @mobile {
+		display: flex;
+		flex-direction: column;
 	}
 }
 
@@ -91,6 +116,9 @@
 		.flex-center-center();
 		width: 20%;
 	}
+	@media @mobile {
+		display: none;
+	}
 }
 
 .rapport-graphics {
@@ -99,6 +127,14 @@
 	img {
 		.flex-center-center();
 		width: 33%;
+		@media @mobile {
+			width: 80%;
+			.mobile-default-margin();
+		}
+	}
+	@media @mobile {
+		display: flex;
+		flex-direction: column;
 	}
 }
 
@@ -109,6 +145,9 @@
 	div {
 		.flex-center-center();
 		width: 33%;
+	}
+	@media @mobile {
+		display: none;
 	}
 }
 

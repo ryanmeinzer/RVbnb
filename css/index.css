@@ -28,6 +28,9 @@
 @media (max-width: 500px) {
   .navigation-section .nav-left-div {
     text-align: center;
+    margin: 1rem 0 0 0;
+    line-height: 4rem;
+    border-top: 1px solid #DAAD86;
   }
 }
 .navigation-section .nav-right-div {
@@ -38,7 +41,7 @@
   font-size: 2.5rem;
 }
 .navigation-section .nav-right-div a {
-  margin: 0 20px;
+  margin: 0 2rem;
   color: #DAAD86;
   text-decoration: none;
 }
@@ -49,6 +52,8 @@
 @media (max-width: 500px) {
   .navigation-section .nav-right-div {
     text-align: center;
+    line-height: 4rem;
+    border-bottom: 1px solid #DAAD86;
   }
 }
 @media (max-width: 500px) {
@@ -71,6 +76,16 @@
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .header-section .header-left-div {
+    margin: 0 0 10px 0;
+  }
+}
+@media (max-width: 500px) {
+  .header-section .header-left-div h2 {
+    margin: 0 0 10px 0;
+  }
+}
 .header-section .header-right-div {
   justify-content: center;
   align-items: center;
@@ -80,6 +95,12 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .header-section {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .RV-carousel {
   margin: 30px auto;
@@ -93,6 +114,18 @@
   align-items: center;
   width: 20%;
 }
+@media (max-width: 500px) {
+  .RV-carousel img {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 500px) {
+  .RV-carousel {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .RV-carousel-headers {
   display: flex;
   justify-content: center;
@@ -103,6 +136,11 @@
   justify-content: center;
   align-items: center;
   width: 20%;
+}
+@media (max-width: 500px) {
+  .RV-carousel-headers {
+    display: none;
+  }
 }
 .rapport-graphics {
   margin: 30px auto;
@@ -116,6 +154,18 @@
   align-items: center;
   width: 33%;
 }
+@media (max-width: 500px) {
+  .rapport-graphics img {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 500px) {
+  .rapport-graphics {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .rapport-graphics-headers {
   display: flex;
   justify-content: space-evenly;
@@ -126,6 +176,11 @@
   justify-content: center;
   align-items: center;
   width: 33%;
+}
+@media (max-width: 500px) {
+  .rapport-graphics-headers {
+    display: none;
+  }
 }
 .footer-div {
   padding: 10px 0;
