@@ -9,7 +9,25 @@
     img {
         .flex-center-center();
         width: 20%;
+        @media @mobile {
+			width: 80%;
+			.mobile-default-margin();
+		}
     }
+    @media @mobile {
+		display: flex;
+		flex-direction: column;
+    } 
+    figcaption {
+		display: none;
+		}
+		@media @mobile {
+			figcaption {
+				display: inline;
+				font-size: 2rem;
+				color: @h3-color;
+			}
+		}
 }
 
 .middle-section-headers {
@@ -20,4 +38,7 @@
         .flex-center-center();
         width: 20%;
     }
+    @media @mobile {
+		display: none;
+	}
 }

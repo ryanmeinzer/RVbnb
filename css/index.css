@@ -126,6 +126,16 @@
     flex-direction: column;
   }
 }
+.RV-carousel figcaption {
+  display: none;
+}
+@media (max-width: 500px) {
+  .RV-carousel figcaption {
+    display: inline;
+    font-size: 2rem;
+    color: #f7df87;
+  }
+}
 .RV-carousel-headers {
   display: flex;
   justify-content: center;
@@ -164,6 +174,16 @@
   .rapport-graphics {
     display: flex;
     flex-direction: column;
+  }
+}
+.rapport-graphics figcaption {
+  display: none;
+}
+@media (max-width: 500px) {
+  .rapport-graphics figcaption {
+    display: inline;
+    font-size: 2rem;
+    color: #f7df87;
   }
 }
 .rapport-graphics-headers {
@@ -206,6 +226,28 @@
   align-items: center;
   width: 20%;
 }
+@media (max-width: 500px) {
+  .middle-section-graphics img {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 500px) {
+  .middle-section-graphics {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.middle-section-graphics figcaption {
+  display: none;
+}
+@media (max-width: 500px) {
+  .middle-section-graphics figcaption {
+    display: inline;
+    font-size: 2rem;
+    color: #f7df87;
+  }
+}
 .middle-section-headers {
   display: flex;
   justify-content: space-evenly;
@@ -216,6 +258,11 @@
   justify-content: center;
   align-items: center;
   width: 20%;
+}
+@media (max-width: 500px) {
+  .middle-section-headers {
+    display: none;
+  }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
