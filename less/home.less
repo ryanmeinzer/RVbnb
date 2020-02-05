@@ -1,11 +1,12 @@
 .navigation-section {
   display: flex;
   flex-direction: center;
+  padding: 10px 0;
   .nav-logo {
 	display: flex;
 	width: 20%;
 	justify-content: center;
-	font-family: 'Courgette', cursive;
+	font-family: @nav-logo-font;
   }
   .nav-left-div {
 	display: flex;
@@ -44,7 +45,8 @@
 .header-section {
 	display: flex;
   	justify-content: space-evenly;
-  	align-items: center;
+	align-items: center;
+	.default-margin();
   	.header-left-div {
 		display: flex;
 		flex-direction: column;
@@ -64,6 +66,7 @@
 }
 
 .RV-carousel {
+	.default-margin();
 	.flex-center-center();
 	img {
 		.flex-center-center();
@@ -80,6 +83,7 @@
 }
 
 .rapport-graphics {
+	.default-margin();
 	.flex-center-center();
 	img {
 		.flex-center-center();
@@ -97,6 +101,9 @@
 	}
 }
 
-footer {
+.footer-div {
+	padding: 10px 0;
+	p {
 	text-align: center;
+	}
 }
