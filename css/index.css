@@ -241,6 +241,14 @@
 .footer-div p {
   text-align: center;
 }
+.footer-div a {
+  color: #DAAD86;
+  text-decoration: none;
+}
+.footer-div a:hover {
+  text-decoration: underline;
+  text-decoration-color: #659DBD;
+}
 .top-section h2,
 .middle-section h2,
 .bottom-section h2 {
