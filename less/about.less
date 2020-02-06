@@ -3,11 +3,22 @@
     .default-margin();
 }
 
+.top-section p {
+	@media @mobile {
+		width: 80%;
+		.mobile-default-margin();
+	}
+}
+
 .top-section-image img {
 	display: flex;
 	max-width: 100%;
 	margin: 20px 0;  
 	border-radius: 10px;
+	@media @mobile {
+		width: 80%;
+		.mobile-default-margin();
+	}
 }
 
 .middle-section-graphics {
@@ -50,5 +61,12 @@
     }
     @media @mobile {
 		display: none;
+	}
+}
+
+.bottom-section p {
+	@media @mobile {
+		width: 80%; 
+		.mobile-default-margin();
 	}
 }

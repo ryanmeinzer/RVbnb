@@ -49,6 +49,7 @@
 		@media @mobile {
 			text-align: center;
 			line-height: 4rem;
+			margin: 0 0 1rem 0;
 			border-bottom: 1px solid #DAAD86;
 		} 
 	}
@@ -90,7 +91,13 @@
 			align-items: center;
 			width: 100%;
 			border-radius: 10px;
-  		}
+		}
+		@media @mobile {
+			display: flex;
+			flex-direction: column;
+			width: 80%;
+			margin: 2rem 0 0 0;
+		}
 	}
 	@media @mobile {
 		display: flex;
@@ -192,6 +199,10 @@
 	max-width: 100%;
 	margin: 20px 0;
 	border-radius: 10px;
+	@media @mobile {
+		width: 80%;
+		.mobile-default-margin();
+	} 
 }
 
 .footer-div {
