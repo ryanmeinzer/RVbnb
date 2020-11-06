@@ -12,10 +12,6 @@ Code Repository - https://github.com/ryanmeinzer/RVbnb
 
 Click around and adjust the browser size for illustrations with responsiveness. 
 
-## Build Log & Future Updates
-
-https://trello.com/b/6yXQn3w3/sicksims
-
 ## Screenshot
 
 ![RVbnb Screenshot](/rvbnb-screenshot.png)
