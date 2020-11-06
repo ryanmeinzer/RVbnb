@@ -10,7 +10,7 @@ Code Repository - https://github.com/ryanmeinzer/RVbnb
 
 ## Features
 
-Click around and adjust the browser size for illustrationss with responsiveness. 
+Click around and adjust the browser size for illustrations with responsiveness. 
 
 ## Build Log & Future Updates
 
