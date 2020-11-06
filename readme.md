@@ -4,7 +4,7 @@ RVbnb was a mock website to illustrate my early HTML, CSS and Less skills.
 
 ## Use
 
-Go to ryanmeinzer.github.io/rvbnb/index.html It's mobile-friendly!
+Go to https://ryanmeinzer.github.io/RVbnb/index.html It's mobile-friendly!
 
 Code Repository - https://github.com/ryanmeinzer/RVbnb
 
